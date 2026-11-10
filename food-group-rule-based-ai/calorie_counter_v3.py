@@ -86,8 +86,8 @@ BANNER = r"""
 || | |_| | (_| | | | |_| | | |__| (_| | | (_) | |  | |  __/   ||
 || |____/ \__,_|_|_|\__, |  \____\__,_|_|\___/|_|  |_|\___|   ||
 ||                  |___/        C O U N T E R                ||
-||                                                            ||"""                                                         
-PLATE = r"""||                                                            ||                                                 
+||                                                            ||                                                      
+||                                                            ||                                                 
 ||         _.---._                                            ||
 ||       .'  o o  '.      Let's count what                    ||
 ||      /     ^     \     you ate today!                      ||
@@ -260,7 +260,6 @@ def run_day():
  
 # 7. START THE PROGRAM
 print(BANNER)
-print(PLATE)
 try:
     while True:
         run_day()
